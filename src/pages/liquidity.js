@@ -1,7 +1,7 @@
 import "../App.css";
 import Grid from "@mui/material/Grid";
 import { Button, Card } from "@mui/material";
-import Sidebar from "../sidebar.js";
+import Sidebar from "../components/sidebar";
 
 function Liquidity() {
   return (
@@ -40,7 +40,7 @@ function Liquidity() {
                 <Button variant="contained">Approve</Button>
               </Grid>
               <Grid item md="6">
-                <Button variant="contained" >Deposit</Button>
+                <Button variant="contained">Deposit</Button>
               </Grid>
             </Grid>
           </Card>
@@ -62,9 +62,11 @@ function Liquidity() {
                 </label>
               </form>
             </div>
-            <div>
-              <button>PAYBACK</button>
-            </div>
+            <Grid container>
+              <Grid item md="12">
+                <Button variant="contained">Approve</Button>
+              </Grid>
+            </Grid>
           </Card>
         </Grid>
       </Grid>

@@ -5,11 +5,14 @@ import "./sidebar.css";
 export default (props) => {
   return (
     <Menu>
-      <a className="menu-item" href="loan">
+      <a className="menu-item" href="/loan">
         Loan
       </a>
-      <a className="menu-item" href="liquidity">
+      <a className="menu-item" href="/liquidity">
         Liquidity
+      </a>
+      <a className="menu-item" href="/Createtoken">
+        Create Token
       </a>
     </Menu>
   );

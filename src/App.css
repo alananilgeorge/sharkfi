@@ -6,7 +6,8 @@
 }
 
 .Form1 {
-  background-color: red;
+  margin: auto;
+  background-color: rgb(244, 173, 173);
   height: 800px;
   border: black;
   border-width: 20px;
@@ -17,7 +18,8 @@
 }
 
 .Form2 {
-  background-color: blue;
+  margin: auto;
+  background-color: rgb(160, 160, 198);
   height: 800px;
   border: black;
   border-width: 20px;
@@ -27,9 +29,7 @@
   justify-content: center;
 }
 
-.card1{
 
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -42,6 +42,7 @@
 }
 
 .App-header {
+  margin: auto;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -63,4 +64,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+#b1
+{    background-color: rgb(109, 173, 195);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+}
+#f1{
+  display: inline;
+}
+.TokenForm{
+  margin-top: 300px;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  background-color: rgb(193, 193, 193);
+  vertical-align: middle;
 }
